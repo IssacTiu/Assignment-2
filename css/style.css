@@ -1,0 +1,103 @@
+
+* {
+    box-sizing: border-box;
+    ;
+}
+
+body, html {
+    min-height: 100vh;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* default font */
+body {
+    background-color: #363636;
+    font-family: "Jacquarda Bastarda 9", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fffcea;
+}
+
+pre {
+    font-family: "Jacquarda Bastarda 9", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2vw;
+    color: #fffcea;
+    line-height: 80%;
+}
+
+/* reading font */
+.legible {
+    font-family: "HandJet", sans-serif;
+    font-weight: 400;
+}
+
+header {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* home button */
+h1 {
+    width: 337px;
+    height: 171px;
+    font-size: 64px;
+    border: 4px dashed #fffcea;
+    text-align: center;
+    stroke: #fffcea;
+}
+
+/* info button */
+h2 {
+    width: 87px;
+    height: 40px;
+    font-size: 24;
+    border: 4px dashed #fffcea;
+    text-align: center;
+}
+
+/* composition sections */
+.art {
+    background-color: #191919;
+    margin-top: 53px;
+    margin-bottom: 53px;
+    width: 80%;
+    margin: auto;
+}
+
+.art-background {
+    font-size: 2vw;
+    text-align: center;
+    background-color: #191919;
+    color: #383838;
+    line-height: 80%;
+}
+
+.creatures {
+    display: flex;
+    grid-template-columns: 161px 384px 384px 384px 161px;
+    grid-gap: 1fr;
+}
+
+.example-background {
+    font-size: 2vw;
+    text-align: center;
+    background-color: #191919;
+    color: #383838;
+    line-height: 80%;
+}
+
+.char-background {
+    font-size: 2vw;
+    text-align: center;
+    background-color: #d9d9d9;
+    color: #bfbfbf;
+    line-height: 80%;
+}
