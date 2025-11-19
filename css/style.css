@@ -1,3 +1,5 @@
+/* DEFAULT STYLES*/
+
 * {
     box-sizing: border-box;
 }
@@ -12,9 +14,13 @@ img {
     max-width: 100%;
 }
 
+/*//////////////////////////////////*/
+
+/* INDEX STYLES */
+
 /* default font */
 body {
-    background-color: #363636;
+    background-color: #161616;
     font-family: "Jacquarda Bastarda 9", serif;
     font-weight: 400;
     font-style: normal;
@@ -75,6 +81,7 @@ a {
     position: relative;
 }
 
+/* header styles */
 .header-top {
     position: relative;
     z-index: 900;
@@ -91,6 +98,7 @@ a {
     margin-top: 1px;
 }
 
+/* IMAGE COMPOSITION */
 .art-background {
     font-size: 2.5vw;
     background-color: #191919;
@@ -100,6 +108,7 @@ a {
     position: absolute;
 }
 
+/* creatures group */
 .creatures {
     position: relative;
     z-index: 900;
@@ -132,15 +141,18 @@ pre {
     animation: riseandfall 3s infinite alternate linear;
 }
 
+/* creatures animation */
 @keyframes riseandfall {
     0% {
         transform: translateY(4vh);
     }
+
     100% {
         transform: translateY(-4vh);
     }
 }
 
+/* NATURAL HABITAT COMPOSITION */
 .example-background {
     font-size: 2.5vw;
     background-color: #191919;
@@ -150,6 +162,7 @@ pre {
     position: absolute;
 }
 
+/* scaling game title */
 .title {
     position: relative;
     z-index: 900;
@@ -157,18 +170,21 @@ pre {
     width: 100%;
     margin-top: 10px;
     margin-bottom: 0px;
-    animation: scaleup 5s infinite alternate linear;
+    animation: scaleup 3s infinite alternate linear;
 }
 
+/* title animation */
 @keyframes scaleup {
     0% {
         transform: scale(1);
     }
+
     100% {
         transform: scale(1.05);
     }
 }
 
+/* start button */
 .start {
     font-size: 2vw;
     text-align: center;
@@ -181,11 +197,12 @@ pre {
     text-decoration: underline;
 }
 
+/* CHARACTER COMPOSITION */
 .char-background {
     font-size: 2.55vw;
     text-align: center;
-    background-color: #d9d9d9;
-    color: #bfbfbf;
+    background-color: #c5c5c5;
+    color: #aeaeae;
     border: 4px dashed #212121;
     line-height: 80%;
     position: absolute;
@@ -201,7 +218,6 @@ pre {
     font-size: 20vw;
     height: 15%;
     margin: auto auto 1px 1px;
-    text-shadow: 0px 5px 0px #6c6c6c;
     text-shadow: 0px 10px 0px #8f8f8f;
     transition: 200ms;
 }
@@ -209,6 +225,8 @@ pre {
 .char:hover {
     scale: 1.3;
 }
+
+/*//////////////////////////////////*/
 
 /* INFO STYLES */
 
@@ -255,8 +273,9 @@ pre {
     text-align: center;
 }
 
-.box-profile a {
+.link {
     text-decoration: underline;
+    font-size: 2vw;
 }
 
 .source {
@@ -279,7 +298,7 @@ pre {
     font-weight: 400;
     font-style: normal;
 
-    font-size: .3vw;
+    font-size: .35vw;
     text-justify: auto;
     line-height: 125%;
 }
